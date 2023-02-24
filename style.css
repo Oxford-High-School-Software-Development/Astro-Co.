@@ -1,26 +1,72 @@
-html {
-    background: url('img/logo-all.png');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+html.main {
+    background: url('img/logo-all.png') center center / 100% 100% no-repeat fixed;
+   
 }
 
-html body {
-    margin-left: 100px;
-    margin-right: 100px;
+html.other {
+    background: url('img/web-background.png') center center / 100% 100% no-repeat fixed;
 }
 
-    html body header {
-        width: 100vw;
-    }
-
-html body header img {
-    width: 18.18vw;
+body {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 95%;
+    font-family: 'Roboto', sans-serif;
 }
 
-html body header nav {
-    background-color: purple;
-    width: 81.81vw;
+body > header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-right: 25px;
 }
 
-html body header nav a {
-    font-size: 22px;
+.topLogo {
+    display: block;
+    vertical-align: middle;
+    width: 12vw;
+}
+
+nav {
+    
+    width: 100%;
+    vertical-align: middle;
+    
+    
+}
+
+body > header > nav > ul {
+    display: block;
+    float: left;
+    width: 100%;
+    padding-left: 0;    
+}
+
+nav > ul > li {
+    display: block;
+    float: left;
+    text-align: center;
+    background-color: #b10dde;
+ 
     width: 11.11%;
 }
+
+nav > ul > li:hover {
+    background-color: #CB61E8;
+}
+
+
+body > header > nav > ul > li > a {
+    display: block;
+    height: 2.5em;
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+

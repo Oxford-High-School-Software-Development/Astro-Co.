@@ -1,0 +1,26 @@
+html {
+    background: url('img/logo-all.png');
+}
+
+html body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+    html body header {
+        width: 100vw;
+    }
+
+html body header img {
+    width: 18.18vw;
+}
+
+html body header nav {
+    background-color: purple;
+    width: 81.81vw;
+}
+
+html body header nav a {
+    font-size: 22px;
+    width: 11.11%;
+}

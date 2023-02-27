@@ -2,7 +2,8 @@
 
 
 html.main {
-    background: url('img/logo-all.png') center center / 100% 100% no-repeat fixed;
+    background: black url('img/logo-all.png') center center / contain no-repeat fixed;
+
    
 }
 

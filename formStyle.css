@@ -11,6 +11,7 @@ form {
     width: 120px;
     text-align: right;
     margin-right: 10px;
+    color: purple
   }
   input[type="text"],
   input[type="email"],
@@ -64,7 +65,7 @@ form {
   }
   
   li {
-    margin: 0 10px;
+    margin: auto;
   }
   
   a {
@@ -77,7 +78,7 @@ form {
   a:hover {
     color: #9D00FF;
   }
-
+  
   .loading-screen {
     position: fixed;
     top: 0;

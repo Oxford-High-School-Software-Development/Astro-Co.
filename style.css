@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 
 html.main {
-    background: url('img/logo-all.png') center center / 100% 100% no-repeat fixed;
+    background: black url("img/logo-all.png") center center / contain no-repeat fixed;
+
    
 }
 
 html.other {
-    background: url('img/web-background.png') center center / 100% 100% no-repeat fixed;
+    background: url("img/web-background.png") center center / 100% 100% no-repeat fixed;
 }
 
 body {
@@ -26,6 +27,7 @@ body > header {
 
 .topLogo {
     display: block;
+    vertical-align: middle;
     width: 12vw;
 }
 
@@ -68,4 +70,3 @@ body > header > nav > ul > li > a {
     text-decoration: none;
     font-weight: bold;
 }
-

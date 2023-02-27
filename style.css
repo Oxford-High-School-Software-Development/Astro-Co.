@@ -43,7 +43,7 @@ body > header > nav > ul {
     display: block;
     float: left;
     width: 100%;
-    padding-left: 0;    
+    padding-left: 0;  
 }
 
 nav > ul > li {
@@ -51,7 +51,6 @@ nav > ul > li {
     float: left;
     text-align: center;
     background-color: #b10dde;
- 
     width: 11.11%;
 }
 
@@ -69,5 +68,6 @@ body > header > nav > ul > li > a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    overflow: hidden; 
 }
 

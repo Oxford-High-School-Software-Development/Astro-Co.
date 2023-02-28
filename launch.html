@@ -3,9 +3,13 @@
 <head>
     <title>Astro Co.</title>
     <link href="style.css" rel="stylesheet"/>
+    <link href="formStyle.css" rel="stylesheet" />
 </head>
 
 <body>
+    <div class="loading-screen">
+        <div class="loading-icon"></div>
+      </div>
     <header>
         <a href="index.html"><img src="img/logo-main.png" class="topLogo"/></a>
         <nav>
@@ -22,6 +26,20 @@
             </ul>
         </nav>
     </header>
+    <script>
+        <!--
+        window.addEventListener('load', function() {
+        var loadingScreen = document.querySelector('.loading-screen');
+        loadingScreen.classList.add('fade-out');
+        setTimeout(function() {
+        loadingScreen.parentNode.removeChild(loadingScreen);
+        document.querySelectorAll('body > *').forEach(function(elem) {
+            elem.style.visibility = 'visible';
+         });
+        }, 2000);
+        }); 
+    //-->
+    </script>
     <h1>Elon Musk</h1>
     <p>Sponsor this website</p>
     <table>

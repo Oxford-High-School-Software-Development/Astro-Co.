@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
 html.main {
     background: black url('img/logo-all.png') center center / contain no-repeat fixed;
 
@@ -74,4 +73,5 @@ body > header > nav > ul > li > a {
 p {
     color: white;
 }
+
 

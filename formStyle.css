@@ -1,6 +1,4 @@
-body > *:not(.loading-screen) {
-    visibility: hidden;
-  }
+
 
 form {
     max-width: 500px;

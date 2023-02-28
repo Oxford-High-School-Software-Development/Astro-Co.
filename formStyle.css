@@ -1,4 +1,6 @@
-
+body > *:not(.loading-screen) {
+    visibility: hidden;
+  }
 
 form {
     max-width: 500px;
@@ -71,4 +73,8 @@ form {
   .fade-out {
     opacity: 0;
     transition: opacity 10s step-end;
+  }
+
+  table.white {
+    color: white;
   }

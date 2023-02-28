@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 html.main {
     background: black url('img/logo-all.png') center center / contain no-repeat fixed;
-
-   
 }
 
 html.other {
@@ -18,12 +16,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-body > header {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    border-right: 25px;
-}
+    body > header {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        border-right: 25px;
+    }
 
 .topLogo {
     display: block;
@@ -32,18 +30,15 @@ body > header {
 }
 
 nav {
-    
     width: 100%;
     vertical-align: middle;
-    
-    
 }
 
 body > header > nav > ul {
     display: block;
     float: left;
     width: 100%;
-    padding-left: 0;    
+    padding-left: 0;
 }
 
 nav > ul > li {
@@ -51,13 +46,12 @@ nav > ul > li {
     float: left;
     text-align: center;
     background-color: #b10dde;
- 
     width: 11.11%;
 }
 
-nav > ul > li:hover {
-    background-color: #CB61E8;
-}
+    nav > ul > li:hover {
+        background-color: #CB61E8;
+    }
 
 
 body > header > nav > ul > li > a {
@@ -70,8 +64,3 @@ body > header > nav > ul > li > a {
     text-decoration: none;
     font-weight: bold;
 }
-
-p {
-    color: white;
-}
-

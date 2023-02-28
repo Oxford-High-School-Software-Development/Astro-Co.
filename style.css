@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
 html.main {
     background: black url('img/logo-all.png') center center / contain no-repeat fixed;
 
@@ -74,4 +75,35 @@ p {
     color: white;
 }
 
+body.planner {
+    color:magenta;
+}
 
+figure.promo {
+    width:42%;
+    height:25%;
+
+
+    display: inline-block;
+    margin: 20px; /* adjust as needed */
+    align-content:middle;
+}
+
+img.promo {
+    width: 100%;
+    height: 22%;
+}
+
+figure figcaption {
+    text-align: center;
+    color:white;
+}
+
+h1 {
+    color: white;
+}
+
+li.vehicles {
+    text-align: center;
+    list-style-type: none;
+}

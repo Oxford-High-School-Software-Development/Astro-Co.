@@ -1,4 +1,6 @@
-
+body > *:not(.loading-screen) {
+    visibility: hidden;
+  }
 
 form {
     max-width: 500px;
@@ -43,27 +45,28 @@ form {
   }
   
   .loading-icon {
-    width: 40vmax;
-    height: 40vmax;
+    width: 50vmax;
+    height: 50vmax;
+    margin-top: 15vmax;
     background-image: url("img/noBackgroundLogo.png");
     background-repeat: no-repeat;
     align-items: center;
-    top: calc(50% - 60px);
-    left: calc(50% - 60px);
+    top: calc(50% - 60vmax);
+    left: calc(50% - 60vmax);
     animation: loading 2s ease-in-out infinite;
   }
   
   @keyframes loading {
     0% {
-      transform: translateX(-50%);
+      transform: translateX(-100%);
       opacity: 0;
     }
     50% {
-      transform: translateX(0%);
+      transform: translateX(10%);
       opacity: 1;
     }
     100% {
-      transform: translateX(50%);
+      transform: translateX(100%);
       opacity: 0;
     }
   }
@@ -75,4 +78,100 @@ form {
 
   table.white {
     color: white;
+    text-align: center;
+    justify-content: center;
+  }
+
+  table.white tr th {
+    text-align: center;
+    justify-content: center;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .loading-icon { 
+      margin-top: 10vmax;
+    }
+  }
+   
+  /* For Tablet View */
+  @media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .loading-icon { 
+      margin-top: 10vmax;
+    }
+  }
+   
+  /* For Mobile Portrait View */
+  @media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+    .loading-icon { 
+      margin-top: 20vmax;
+    }
+    @keyframes loading {
+      0% {
+        transform: translateX(-50%);
+        opacity: 0;
+      }
+      50% {
+        transform: translateX(20%);
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(50%);
+        opacity: 0;
+      }
+    }
+  }
+   
+  /* For Mobile Landscape View */
+  @media screen and (max-device-width: 640px)
+  and (orientation: landscape) {
+    .loading-icon { 
+      margin-top: 20vmax;
+    }
+    @keyframes loading {
+      0% {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      50% {
+        transform: translateX(20%);
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+    }
+  }
+   
+  /* For Mobile Phones Portrait or Landscape View */
+  @media screen and (max-device-width: 640px) {
+    .loading-icon { 
+      margin-top: 10vmax;
+    }
+  }
+   
+  /* For iPhone 4 Portrait or Landscape View */
+  @media screen and (min-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .loading-icon { 
+      margin-top: 10vmax;
+    }
+  }
+   
+  /* For iPhone 5 Portrait or Landscape View */
+  @media (device-height: 568px) and (device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .loading-icon { 
+      margin-top: 10vmax;
+    }
+  }
+   
+  /* For iPhone 6 and 6 plus Portrait or Landscape View */
+  @media (min-device-height: 667px) and (min-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .loading-icon { 
+      margin-top: 10vmax;
+    }
   }

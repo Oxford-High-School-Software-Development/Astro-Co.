@@ -64,6 +64,9 @@ nav > ul > li:hover {
     background-color: #CB61E8;
 }
 
+a:link {
+    color: white;
+}
 
 body > header > nav > ul > li > a {
     display: block;

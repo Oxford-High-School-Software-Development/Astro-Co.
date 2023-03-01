@@ -12,6 +12,12 @@ footer {
     clear: left;
 }
 
+header::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
 footer::after {
     clear: both;
     content: "";

@@ -2,9 +2,13 @@
 
 
 html.main {
-    background: black url('img/logo-all.png') center center / contain no-repeat fixed;
+    background: black url('img/logo-all.png') center center / contain no-repeat fixed;  
+}
 
-   
+html.main > footer::after {
+    clear: both;
+    content: "";
+    display: table;
 }
 
 html.other {

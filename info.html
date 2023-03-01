@@ -6,8 +6,12 @@
     <title></title>
     <link rel="stylesheet" href="StyleSheet2.css" >
     <link rel="stylesheet" href="StyleSheet1.css" >
+    <link href="formStyle.css" rel="stylesheet" />
 </head>
 <body>
+    <div class="loading-screen">
+        <div class="loading-icon"></div>
+      </div>
 	<header>
         <a href="index.html"><img src="img/logo-main.png" class="topLogo"/></a>
         <nav>
@@ -24,6 +28,20 @@
             </ul>
         </nav>
     </header>
+    <script>
+        <!--
+        window.addEventListener('load', function() {
+        var loadingScreen = document.querySelector('.loading-screen');
+        loadingScreen.classList.add('fade-out');
+        setTimeout(function() {
+        loadingScreen.parentNode.removeChild(loadingScreen);
+        document.querySelectorAll('body > *').forEach(function(elem) {
+            elem.style.visibility = 'visible';
+         });
+        }, 2000);
+        }); 
+    //-->
+    </script>
     <div class="about-section">
         <h1 class="about"> About Us </h1>
         <p> The leading astronaut training program.</p>

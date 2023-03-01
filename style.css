@@ -90,7 +90,7 @@ figure.promo {
 
 
     display: inline-block;
-    margin: 20px; /* adjust as needed */
+    margin: 20px; 
     align-content:middle;
 }
 
@@ -109,5 +109,10 @@ h1 {
 }
 
 cite {
+    color: white;
+}
+
+.email {
+    text-decoration: none;
     color: white;
 }

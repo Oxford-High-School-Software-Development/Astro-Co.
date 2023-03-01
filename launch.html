@@ -3,9 +3,13 @@
 <head>
     <title>Astro Co.</title>
     <link href="style.css" rel="stylesheet"/>
+    <link href="formStyle.css" rel="stylesheet" />
 </head>
 
 <body>
+    <div class="loading-screen">
+        <div class="loading-icon"></div>
+      </div>
     <header>
         <a href="index.html"><img src="img/logo-main.png" class="topLogo"/></a>
         <nav>
@@ -22,6 +26,20 @@
             </ul>
         </nav>
     </header>
+    <script>
+        <!--
+        window.addEventListener('load', function() {
+        var loadingScreen = document.querySelector('.loading-screen');
+        loadingScreen.classList.add('fade-out');
+        setTimeout(function() {
+        loadingScreen.parentNode.removeChild(loadingScreen);
+        document.querySelectorAll('body > *').forEach(function(elem) {
+            elem.style.visibility = 'visible';
+         });
+        }, 2000);
+        }); 
+    //-->
+    </script>
   <center>
     <h1>Launch</h1>
   </center>
@@ -33,7 +51,45 @@
       <li>Third Stage Ignition</li>
     </ol>
   <p>The first two stages use liquid rocket fuel, while the third stage uses solid rocket fuel.</p>
-  <p>After each rocket is fired, it uses up its fuel supply. Once the fuel supply has been used, the rocket is discarded.</p>
+  <p>After each rocket is fired, it uses up its fuel supply. Once the fuel supply has been used, the rocket is discarded.</p><br />
+   <table class="white">
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th colspan="3">Launch Dates</th>
+        </tr>
+        <tr>
+            <th colspan="2">Date</th>
+            <th colspan="2">Vehicles</th>
+            <th colspan="3">Mission</th>
+            <th colspan="2">Launch Site</th>
+            <th colspan="2">Launch Window</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td colspan="2">February 27, 2023</td>
+            <td colspan="2">SpaceX Falcon 9</td>
+            <td colspan="2">Falcon 9 Starlink 6-1: SpaceX will launch a batch of Starlink satellites for their second generation high-speed low earth orbit internet satellite constellation.</td>
+            <td colspan="2">Cape Canaveral Air Force Station - SLC 40</td>
+            <td colspan="2">6:13 pm</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2">March 2, 2023</td>
+            <td colspan="2">SpaceX Falcon 9</td>
+            <td colspan="2">Falcon 9 Crew 6 - The SpaceX Dragon spacecraft, named Endeavour, mated atop a Falcon 9 rocket will carry two NASA astronauts, Mission Commander Stephen Bowen, and Pilot Woody Hoburg, along with UAE (United Arab Emirates) astronaut Sultan Alneyadi and Roscosmos cosmonaut Andrey Fedyaev, who will join as mission specialists.</td>
+            <td colspan="2">Kennedy Space Center - LC-39A</td>
+            <td colspan="2">12:34 am</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th colspan="3"><cite>"Launch Cite"</cite></th>
+        </tr>
+    </table>
 
 <footer><cite>“Launch Sequence Description.” NASA, NASA, https://mars.nasa.gov/odyssey/mission/timeline/mtlaunch/launch2/. “Launch List.” Space Coast Launches, https://spacecoastlaunches.com/launch-list/.  </cite></footer>  
 </body>

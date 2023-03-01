@@ -45,8 +45,8 @@ form {
   }
   
   .loading-icon {
-    width: 40vw;
-    height: 40vh;
+    width: 20vmax;
+    height: 20vmax;
     background-image: url("img/noBackgroundLogo.png");
     background-repeat: no-repeat;
     align-items: center;

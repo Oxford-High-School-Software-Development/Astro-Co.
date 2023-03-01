@@ -9,6 +9,7 @@ footer {
     font-size: 11px;
     background-color: black;
     color: white;
+    clear: left;
 }
 
 footer::after {

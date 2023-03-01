@@ -82,8 +82,12 @@ nav > ul > li:hover {
     background-color: #CB61E8;
 }
 
-a:link {
+html.main > body > footer > p > a:link {
     color: white;
+}
+
+html.main > body > footer > p > a:visited {
+    color: #b10dde;
 }
 
 body > header > nav > ul > li > a {

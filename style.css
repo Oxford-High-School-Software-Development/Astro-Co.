@@ -140,3 +140,8 @@ cite {
 li {
     color: white;
 }
+
+
+table {
+    border-collapse: collapse;
+}

@@ -31,6 +31,11 @@ footer::after {
     display: table;
 }
 
+footer.main > p {
+    font-size: 14px;
+    color: white;
+}
+
 html.other {
     background: black url('img/web-background.png') center center / 100% 100% no-repeat fixed;
 }

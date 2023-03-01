@@ -84,6 +84,9 @@ nav > ul > li:hover {
 a:link {
     color: white;
 }
+a:visited {
+    color: #b10dde;
+}
 
 body > header > nav > ul > li > a {
     display: block;

@@ -12,7 +12,10 @@ footer {
     font-size: 11px;
     background-color: black;
     color: white;
-    clear: left;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 header::after {

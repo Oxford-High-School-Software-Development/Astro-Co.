@@ -5,6 +5,10 @@ html.main {
     background: black url('img/logo-all.png') center center / contain no-repeat fixed;  
 }
 
+table.main {
+    border: none;
+}
+
 footer {
     font-size: 11px;
     background-color: black;

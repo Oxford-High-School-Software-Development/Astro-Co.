@@ -19,7 +19,7 @@ body {
 }
 
 footer {
-    font-size: 8px;
+    font-size: 11px;
     color: white;
 }
 
@@ -119,4 +119,12 @@ cite {
 
 li {
     color: white;
+}
+
+table, th, td {
+    border: 1px, solid;
+    width: 40%;
+}
+table {
+    border-collapse: collapse;
 }

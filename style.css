@@ -5,7 +5,13 @@ html.main {
     background: black url('img/logo-all.png') center center / contain no-repeat fixed;  
 }
 
-html.main > footer::after {
+footer {
+    font-size: 11px;
+    background-color: black;
+    color: white;
+}
+
+footer::after {
     clear: both;
     content: "";
     display: table;
@@ -22,10 +28,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-footer {
-    font-size: 11px;
-    color: white;
-}
+
 
 body > header {
     display: flex;
@@ -41,11 +44,8 @@ body > header {
 }
 
 nav {
-    
     width: 100%;
     vertical-align: middle;
-    
-    
 }
 
 body > header > nav > ul {
